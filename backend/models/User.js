@@ -9,6 +9,7 @@ const userSchema = new mongoose.Schema(
     email: {
       type: String,
       required: true,
+      unique: true,
     },
     adminId: {
       type: mongoose.Schema.Types.ObjectId,
@@ -18,4 +19,5 @@ const userSchema = new mongoose.Schema(
   },
   { timestamps: true },
 );
+
 module.exports = mongoose.model("User", userSchema);
