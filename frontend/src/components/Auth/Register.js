@@ -61,6 +61,12 @@ const Register = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50">
       <div className="max-w-md w-full space-y-8 p-8">
+        <div className="text-center">
+          <h1 className="text-4xl font-bold text-blue-600 mb-2">
+            User Management System
+          </h1>
+        </div>
+        
         <div>
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
             Admin Registration
